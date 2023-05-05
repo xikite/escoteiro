@@ -1,5 +1,5 @@
 var btn = document.getElementById("btn")
-var btnReturn = documenet.getElementById("btnReturn")
+var btnReturn = document.getElementById("btnReturn")
 var span = document.getElementById("especificacoes")
 var spanReturn = document.getElementById("componentMessage")
 
