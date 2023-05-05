@@ -3,14 +3,13 @@ var btnReturn = documenet.getElementById("btnReturn")
 var span = document.getElementById("especificacoes")
 var spanReturn = document.getElementById("componentMessage")
 
-btn.addEventListener("click", counter())
-btnReturn.addEventListener("click", e=>{
+function Return(){
     btnReturn.style.display = "none"
     btn.style.display = "block"
     spanReturn.style.display = "none"
     span.style.display = "none"
     document.getElementById("value").style.display = "block"
-})
+}
 
 function counter() {
 
