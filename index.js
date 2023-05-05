@@ -1,12 +1,24 @@
 var btn = document.getElementById("btn")
+var btnReturn = documenet.getElementById("btnReturn")
 var span = document.getElementById("especificacoes")
+var spanReturn = document.getElementById("componentMessage")
 
+btn.addEventListener("click", counter())
+btnReturn.addEventListener("click", e=>{
+    btnReturn.style.display = "none"
+    btn.style.display = "block"
+    spanReturn.style.display = "none"
+    span.style.display = "none"
+    document.getElementById("value").style.display = "block"
+})
 
 function counter() {
 
     if(document.getElementById("value").value == 63) {
         
+        btnReturn.style.display = "block"
         btn.style.display = "none"
+        spanReturn.style.display = "none"
         span.style.display = "block"
         document.getElementById("value").style.display = "none"
             
@@ -17,6 +29,8 @@ function counter() {
     } else if(document.getElementById("value").value == 18) {
 
         btn.style.display = "none"
+        btnReturn.style.display = "block"
+        spanReturn.style.display = "none"
         span.style.display = "block"
         document.getElementById("value").style.display = "none"
             
@@ -27,6 +41,8 @@ function counter() {
     } else if(document.getElementById("value").value == 57) {
 
         btn.style.display = "none"
+        btnReturn.style.display = "block"
+        spanReturn.style.display = "none"
         span.style.display = "block"
         document.getElementById("value").style.display = "none"
             
@@ -37,6 +53,8 @@ function counter() {
     } else if(document.getElementById("value").value == 77) {
 
         btn.style.display = "none"
+        btnReturn.style.display = "block"
+        spanReturn.style.display = "none"
         span.style.display = "block"
         document.getElementById("value").style.display = "none"
             
@@ -47,6 +65,8 @@ function counter() {
     } else if(document.getElementById("value").value == 51) {
 
         btn.style.display = "none"
+        btnReturn.style.display = "block"
+        spanReturn.style.display = "none"
         span.style.display = "block"
         document.getElementById("value").style.display = "none"
             
@@ -54,6 +74,8 @@ function counter() {
 
         span.innerText = teste
 
+    } else {
+        spanReturn.style.display = "block"
     }
 
 }
