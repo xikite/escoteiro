@@ -13,7 +13,7 @@ function Return(){
 
 function counter() {
 
-    if(document.getElementById("value").value == 63) {
+    if(document.getElementById("value").value === 63) {
         
         btnReturn.style.display = "block"
         btn.style.display = "none"
@@ -25,7 +25,7 @@ function counter() {
 
         span.innerText = teste
         
-    } else if(document.getElementById("value").value == 18) {
+    } else if(document.getElementById("value").value === 18) {
 
         btn.style.display = "none"
         btnReturn.style.display = "block"
@@ -37,7 +37,7 @@ function counter() {
 
         span.innerText = teste
 
-    } else if(document.getElementById("value").value == 57) {
+    } else if(document.getElementById("value").value === 57) {
 
         btn.style.display = "none"
         btnReturn.style.display = "block"
@@ -49,7 +49,7 @@ function counter() {
 
         span.innerText = teste
 
-    } else if(document.getElementById("value").value == 77) {
+    } else if(document.getElementById("value").value === 77) {
 
         btn.style.display = "none"
         btnReturn.style.display = "block"
@@ -61,7 +61,7 @@ function counter() {
 
         span.innerText = teste
 
-    } else if(document.getElementById("value").value == 51) {
+    } else if(document.getElementById("value").value === 51) {
 
         btn.style.display = "none"
         btnReturn.style.display = "block"
